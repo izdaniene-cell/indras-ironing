@@ -8,21 +8,21 @@ const services = [
     icon: ShoppingCart,
     title: 'Order',
     description: 'To arrange an ironing collection just call, text or order online',
-    image: '/images/order-online.jpg',
+    image: '/images/order-online-696x696.png',
     delay: 0.1
   },
   {
     icon: Truck,
     title: 'Free collection and delivery',
     description: 'I collect and deliver at times that suits you',
-    image: '/images/free-collection-and-delivery.jpg',
+    image: '/images/free-collection-and-delivery-696x696.png',
     delay: 0.2
   },
   {
     icon: Clock,
     title: '24 hours turnaround',
     description: 'Your ironed clothes returned in as little as 24 hours',
-    image: '/images/24-hour-turnaround.jpg',
+    image: '/images/24-hour-turnaround-696x696.png',
     delay: 0.3
   }
 ]
@@ -62,10 +62,6 @@ export default function Services() {
                   src={service.image}
                   alt={service.title}
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                  onError={(e) => {
-                    // Fallback to a placeholder if image doesn't load
-                    e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDQwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxjaXJjbGUgY3g9IjIwMCIgY3k9IjEwMCIgcj0iNDAiIGZpbGw9IiM2NWM2ZDQiLz4KPHN2ZyB4PSIxNzAiIHk9IjcwIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPgo8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAxOGMtNC40MSAwLTgtMy41OS04LTggczMuNTktOCA4LTggOCAzLjU5IDggOC0zLjU5IDgtOCA4eiIvPgo8cGF0aCBkPSJNMTIgNnY2bDQgNCIvPgo8L3N2Zz4KPC9zdmc+'
-                  }}
                 />
               </div>
               

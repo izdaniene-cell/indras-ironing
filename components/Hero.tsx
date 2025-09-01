@@ -72,13 +72,9 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-success/20 rounded-3xl transform rotate-3"></div>
               <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden">
                 <img
-                  src="/images/fresh-washed-clothes.jpg"
+                  src="/images/fresh-washed-clothes-1076x615.png"
                   alt="Fresh washed clothes ready for ironing"
                   className="w-full h-auto object-cover"
-                  onError={(e) => {
-                    // Fallback to a placeholder if image doesn't load
-                    e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDYwMCA0MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxwYXRoIGQ9Ik0xNTAgMTUwTDI1MCAyNTBMMzUwIDE1MEg0NTBWMzUwSDE1MFYxNTBaIiBmaWxsPSIjNjVjNmQ0Ii8+Cjx0ZXh0IHg9IjMwMCIgeT0iMjAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzc0MTUxIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjQiPkZyb2VtIExhdW5kcnkgdG8gUGVyZmVjdGlvbiE8L3RleHQ+Cjwvc3ZnPgo='
-                  }}
                 />
               </div>
             </div>

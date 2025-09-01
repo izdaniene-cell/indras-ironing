@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${jost.variable} ${ibmPlexSans.variable}`}>
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/untitled-4-96x96.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>

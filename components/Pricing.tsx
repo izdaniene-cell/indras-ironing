@@ -10,7 +10,7 @@ const pricingOptions = [
     unit: 'per piece',
     minimum: '14 shirts (£30)',
     description: 'Perfect for business professionals who need their shirts perfectly pressed',
-    image: '/images/shirts-on-hangers.jpg',
+    image: '/images/shirts-on-hangers-1076x615.png',
     features: [
       'Professional pressing',
       'Starch options available',
@@ -25,7 +25,7 @@ const pricingOptions = [
     unit: 'per kilogram',
     minimum: '4 kilograms (£30)',
     description: 'Ideal for families and households with various clothing types',
-    image: '/images/mixed-ironing.jpg',
+    image: '/images/mixed-ironing-1076x615.png',
     features: [
       'All clothing types',
       'Bedding and linens',
@@ -71,10 +71,6 @@ export default function Pricing() {
                   src={option.image}
                   alt={option.title}
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-                  onError={(e) => {
-                    // Fallback to a placeholder if image doesn't load
-                    e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDQwMCAyNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMjUwIiBmaWxsPSIjRjNGNEY2Ii8+CjxyZWN0IHg9IjEwMCIgeT0iNTAiIHdpZHRoPSIyMDAiIGhlaWdodD0iMTUwIiBmaWxsPSIjNjVjNmQ0IiByeD0iMTAiLz4KPHN2ZyB4PSIxNzAiIHk9IjEwMCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9IndoaXRlIj4KPHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgMThjLTQuNDEgMC04LTMuNTktOC04IHMzLjU5LTggOC04IDggMy41OSA4IDgtOCAzLjU5LTgtOCA4eiIvPgo8cGF0aCBkPSJNMTIgNnY2bDQgNCIvPgo8L3N2Zz4KPC9zdmc+'
-                  }}
                 />
               </div>
               
